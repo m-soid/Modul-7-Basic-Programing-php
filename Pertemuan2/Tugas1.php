@@ -56,7 +56,8 @@ function rupiah($angka){
 
 echo "Jabatan : $jabatan <br>";
 echo "Gaji Pokok : " . rupiah($gaji) . "<br>";
-echo "Pajak : " . rupiah($total_pajak) . "<br>" ;
+echo "Pajak : " . $pajak . "%<br>";
+echo "Total Pajak : " . rupiah($total_pajak) . "<br>" ;
 echo "Bonus : " . rupiah($bonus) . "<br>";
 echo "Gaji Bersih : " . rupiah($gaji_bersih) . "<br>";
 
