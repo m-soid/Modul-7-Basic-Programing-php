@@ -7,17 +7,20 @@ echo "<hr>";
 // variabel
 
 $jabatan = 3;
-$gaji = 7000000;
 $jam = 0;
 
 // command
 
+
 if ($jabatan == 1) {
     $jabatan = "Manager";
+    $gaji = 7000000;
 } elseif ($jabatan == 2) {
     $jabatan = "Supervisor";
+    $gaji = 5000000;
 } elseif ($jabatan == 3) {
     $jabatan = "Staff";
+    $gaji = 3000000;
 }
 
 if ($gaji <= 3000000) {
