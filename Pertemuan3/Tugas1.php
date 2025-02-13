@@ -18,9 +18,9 @@ echo "<h1>Daftar Nilai Siswa</h1>";
 
 echo "<table border='1' cellpadding='10' cellspacing='0'>";
 echo "<tr>
-<th>Nama</th>
+<th><center>Nama</th>
 <th>Nilai</th>
-<th>Status</th>
+<th>Status</th></center>
 </tr>";
 
 echo "<h3>";
