@@ -37,10 +37,16 @@ $produk2 = [
 ];
 
 foreach ($produk2 as $p) {
-    echo "Nama Produk " . $p['nama'] .  // Nama
-    ", " . $p['harga'] .                // Harga
-    ", Stock " .  $p['stok'] . "<br>";  // Stock
+    echo 
+    "Produk : " . $p['nama'] 
+    . "<br>" .
+    "Harga : Rp. " . number_format($p['harga'], 2,",",".") 
+    . "<br>" .
+    "Stock : " .  $p['stok'] 
+    . "<br><br>";
 }
+
+// number_format($p['harga'], 0, ",", ".")
 
 
 
